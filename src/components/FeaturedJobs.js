@@ -8,8 +8,8 @@ const FeaturedJobs = () => {
     // `${isDark?dark.main : light.main}`
   return (
     <>
-    <div style={{width: '100vw', margin:'auto', display: 'grid', gridTemplateColumns:'1fr 1fr', paddingTop: '5rem', background:    `${isDark?dark.main : light.main}`}}>
-        <div style={{width: '90vw', marginLeft:'8rem', display: 'grid', gridTemplateColumns:'1fr 1fr 1fr', paddingTop: '5rem', }}>
+    <div style={{width: '100vw',  display: 'grid', gridTemplateColumns:'1fr 1fr', paddingTop: '5rem', background:    `${isDark?dark.main : light.main}`}}>
+        <div style={{width: '85%', margin:'auto', display: 'grid', gridTemplateColumns:'1fr 1fr 1fr', paddingTop: '5rem', }}>
         {
             featuredJobs.map((elm, i)=>{
                 return (
