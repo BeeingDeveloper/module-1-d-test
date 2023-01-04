@@ -1,0 +1,18 @@
+
+
+.card{
+    background: white;
+    border-radius: 0.5rem;
+    display: flex;
+    gap: 2.5rem; 
+    padding: 2rem; 
+    margin: 2rem;
+    box-shadow: 10px 10px 25px gray;
+    transition: all 0.2s ease-in-out;
+    cursor: pointer;
+    text-align: left;
+}
+.card:hover{
+    scale: 0.9;
+}
+
