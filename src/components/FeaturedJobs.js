@@ -27,7 +27,7 @@ const FeaturedJobs = () => {
                             <h2 style={{fontSize: '1.2rem'}}>{elm.position}</h2>
                             <h2 style={{fontSize: '0.8rem'}}>{elm.description}</h2>
                             <div style={{display:'flex', justifyContent: 'space-between'}}>
-                                <h2 style={{color: '#2bba66'}}>{elm.salary}</h2>
+                                <h2 style={{color: 'green'}}>{elm.salary}</h2>
                                 <button style={{padding: '0.8rem', fontSize:'1.5rem', color:'white', border:'1px solid transparent', 
                                 borderRadius:'0.5rem', height:'3.5rem', background: '#865edb', width: '8rem', marginTop: '1rem', cursor: 'pointer'
                                 }}>Apply</button>
